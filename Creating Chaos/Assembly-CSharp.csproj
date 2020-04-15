@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Destructable Objects\DestructableObject.cs" />
+    <Compile Include="Assets\Scripts\Destructable Objects\Destruction.cs" />
+    <Compile Include="Assets\Scripts\Destructable Objects\Piece.cs" />
+    <Compile Include="Assets\Scripts\Destructable Objects\Pieces.cs" />
     <Compile Include="Assets\Scripts\Destructable Objects\fts.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity Files/Projects/Creating Chaos/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

@@ -97,14 +97,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destructionType: 0
-  minRadius: 0
-  maxRadius: 0
+  radius: 0
   minRange: 0
   maxRange: 0
-  pieces: []
-  gravity: 0
-  maxHeight: 0
-  destructionSpeed: 1.41
+  pieces:
+  - {fileID: 6639965594147992980, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  - {fileID: 5884733398209835279, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  - {fileID: 1584503805760247307, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  - {fileID: 712230884187417463, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  - {fileID: -7716481332283066507, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  - {fileID: -5723728566589278671, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  - {fileID: -62170934952054735, guid: 38fcc1704d0e7dc49b266723349096d3, type: 3}
+  maxHeight: 10
+  targetPosition: {x: 0, y: 0, z: 0}
+  destructionSpeed: 1.5
 --- !u!50 &-8245688018007141127
 Rigidbody2D:
   serializedVersion: 4
