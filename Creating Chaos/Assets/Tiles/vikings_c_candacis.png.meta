@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 38fcc1704d0e7dc49b266723349096d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -62170934952054735
+    second: vikings_c_candacis_0
+  - first:
+      213: -5723728566589278671
+    second: vikings_c_candacis_1
+  - first:
+      213: -7716481332283066507
+    second: vikings_c_candacis_2
+  - first:
+      213: 712230884187417463
+    second: vikings_c_candacis_3
+  - first:
+      213: 1584503805760247307
+    second: vikings_c_candacis_4
+  - first:
+      213: 5884733398209835279
+    second: vikings_c_candacis_5
+  - first:
+      213: 650735784505548235
+    second: vikings_c_candacis_6
+  - first:
+      213: 6639965594147992980
+    second: vikings_c_candacis_7
+  - first:
+      213: -3651865864789776830
+    second: vikings_c_candacis_8
+  - first:
+      213: -4759942862997412621
+    second: vikings_c_candacis_9
+  - first:
+      213: 885683629027805923
+    second: vikings_c_candacis_10
+  - first:
+      213: -2819097867117130506
+    second: vikings_c_candacis_11
+  - first:
+      213: -4981363951903967016
+    second: vikings_c_candacis_12
+  - first:
+      213: -1401698742620930198
+    second: vikings_c_candacis_13
+  - first:
+      213: -5878395323180902963
+    second: vikings_c_candacis_14
+  - first:
+      213: -6683625915079691826
+    second: vikings_c_candacis_15
+  - first:
+      213: -8074551805054853379
+    second: vikings_c_candacis_16
+  - first:
+      213: 8076625459348428338
+    second: vikings_c_candacis_17
+  - first:
+      213: -2231856756159250034
+    second: vikings_c_candacis_18
+  - first:
+      213: -187705149599832354
+    second: vikings_c_candacis_19
+  - first:
+      213: 4612223022922754094
+    second: vikings_c_candacis_20
+  - first:
+      213: -4819213213960662875
+    second: vikings_c_candacis_21
+  - first:
+      213: 9040484895589356934
+    second: vikings_c_candacis_22
+  - first:
+      213: -7537410966598193842
+    second: vikings_c_candacis_23
+  - first:
+      213: 4318982409192761071
+    second: vikings_c_candacis_24
+  - first:
+      213: -3530707393600521416
+    second: vikings_c_candacis_25
+  - first:
+      213: 5555959555565367550
+    second: vikings_c_candacis_26
+  - first:
+      213: 9131994976908993455
+    second: vikings_c_candacis_27
+  - first:
+      213: 3336396038084271831
+    second: vikings_c_candacis_28
+  - first:
+      213: 6122253340803493831
+    second: vikings_c_candacis_29
+  - first:
+      213: 6437545571791971037
+    second: vikings_c_candacis_30
+  - first:
+      213: 3843988939078350645
+    second: vikings_c_candacis_31
+  - first:
+      213: 5617058227796126278
+    second: vikings_c_candacis_32
+  - first:
+      213: -3699141007955754938
+    second: vikings_c_candacis_33
+  - first:
+      213: -8697169852154489768
+    second: vikings_c_candacis_34
+  - first:
+      213: 3049952706828966298
+    second: vikings_c_candacis_35
+  - first:
+      213: -2457288041964866012
+    second: vikings_c_candacis_36
+  - first:
+      213: 5165600871741846473
+    second: vikings_c_candacis_37
+  - first:
+      213: 2922458655009436276
+    second: vikings_c_candacis_38
+  - first:
+      213: -4222796870553579625
+    second: vikings_c_candacis_39
+  - first:
+      213: 3857537895698885818
+    second: vikings_c_candacis_40
+  - first:
+      213: -8717937884363627707
+    second: vikings_c_candacis_41
+  - first:
+      213: -7554030478640985161
+    second: vikings_c_candacis_42
+  - first:
+      213: -5844080785468565524
+    second: vikings_c_candacis_43
+  - first:
+      213: 2851373792686992281
+    second: vikings_c_candacis_44
+  - first:
+      213: -1027847503630413312
+    second: vikings_c_candacis_45
+  - first:
+      213: 4847352875958539818
+    second: vikings_c_candacis_46
+  - first:
+      213: 8554441031431535928
+    second: vikings_c_candacis_47
+  - first:
+      213: 1384485919116876732
+    second: vikings_c_candacis_48
+  - first:
+      213: -5359441292444227258
+    second: vikings_c_candacis_49
+  - first:
+      213: 613118202942261183
+    second: vikings_c_candacis_50
+  - first:
+      213: 1374264275327567465
+    second: vikings_c_candacis_51
+  - first:
+      213: -7335243482344387449
+    second: vikings_c_candacis_52
+  - first:
+      213: 5505557095669110220
+    second: vikings_c_candacis_53
+  - first:
+      213: -7451385067623627009
+    second: vikings_c_candacis_54
+  - first:
+      213: -5290514387564201692
+    second: vikings_c_candacis_55
+  - first:
+      213: -534521802976278092
+    second: vikings_c_candacis_56
+  - first:
+      213: -7153342993679835938
+    second: vikings_c_candacis_57
+  - first:
+      213: -5235784323958358853
+    second: vikings_c_candacis_58
+  - first:
+      213: 2053593194015363781
+    second: vikings_c_candacis_59
+  - first:
+      213: 288510905062620073
+    second: vikings_c_candacis_60
+  - first:
+      213: 2538670741560771401
+    second: vikings_c_candacis_61
+  - first:
+      213: 8083764340806014520
+    second: vikings_c_candacis_62
+  - first:
+      213: -3148085538557955045
+    second: vikings_c_candacis_63
+  - first:
+      213: 4636528134693082699
+    second: vikings_c_candacis_64
+  - first:
+      213: -538773564774926895
+    second: vikings_c_candacis_65
+  - first:
+      213: 980630374533574086
+    second: vikings_c_candacis_66
+  - first:
+      213: -3569692735529973768
+    second: vikings_c_candacis_67
+  - first:
+      213: -8667185318054296222
+    second: vikings_c_candacis_68
+  - first:
+      213: -2454049454803804731
+    second: vikings_c_candacis_69
+  - first:
+      213: -1846022506738928699
+    second: vikings_c_candacis_70
+  - first:
+      213: 33741559164637071
+    second: vikings_c_candacis_71
+  - first:
+      213: -7712146435832865308
+    second: vikings_c_candacis_72
+  - first:
+      213: -5542843850363457253
+    second: vikings_c_candacis_73
+  - first:
+      213: -223597468275869001
+    second: vikings_c_candacis_74
+  - first:
+      213: -6609929668760664634
+    second: vikings_c_candacis_75
+  - first:
+      213: 4050279867327481981
+    second: vikings_c_candacis_76
+  - first:
+      213: 4335356615461669568
+    second: vikings_c_candacis_77
+  - first:
+      213: 8861057772276563693
+    second: vikings_c_candacis_78
+  - first:
+      213: 921400789875060321
+    second: vikings_c_candacis_79
+  - first:
+      213: 2707962871785659592
+    second: vikings_c_candacis_80
+  - first:
+      213: 4089688960457118057
+    second: vikings_c_candacis_81
+  - first:
+      213: -1040612323109302371
+    second: vikings_c_candacis_82
+  - first:
+      213: -2024158617204084857
+    second: vikings_c_candacis_83
+  - first:
+      213: -3404975107802427769
+    second: vikings_c_candacis_84
+  - first:
+      213: 4951207220807465132
+    second: vikings_c_candacis_85
+  - first:
+      213: -2055076891426826512
+    second: vikings_c_candacis_86
+  - first:
+      213: -8921916202034773119
+    second: vikings_c_candacis_87
+  - first:
+      213: 5334682048519255859
+    second: vikings_c_candacis_88
+  - first:
+      213: 2087602475165402439
+    second: vikings_c_candacis_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vikings_c_candacis_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 24
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13034d23ddf132ff0800000000000000
+      internalID: -62170934952054735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136b0bdb13b3190b0800000000000000
+      internalID: -5723728566589278671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b559ac1d89e490800000000000000
+      internalID: -7716481332283066507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bad02373a52e900800000000000000
+      internalID: 712230884187417463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 18
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b061897f0d94df510800000000000000
+      internalID: 1584503805760247307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 6
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01bc26d8d5caa150800000000000000
+      internalID: 5884733398209835279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 11
+        width: 12
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd961e8fb0e70900800000000000000
+      internalID: 650735784505548235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b1002785e52c50800000000000000
+      internalID: 6639965594147992980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 15
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246a4d92857f15dc0800000000000000
+      internalID: -3651865864789776830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikings_c_candacis_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 25
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f422e37f2941fdb0800000000000000
+      internalID: -4759942862997412621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
