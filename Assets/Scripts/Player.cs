@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
     Rigidbody2D rb;
 
     public float velocity, maxSpeed;
 
     //Сила прыжка
     public float jumpForce;
+
+    //Замедление при движении обьекта (static чтобы можно было получать доступ из других скриптов)
+    [Min(1)]
+    public float MovingObjectsSlowdown;
+    public static float movingObjectsSlowdown;
 
     // Start is called before the first frame update
     void Start()
@@ -43,15 +47,37 @@ public class Player : MonoBehaviour
 
         }
 
-           // rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
+        movingObjectsSlowdown = MovingObjectsSlowdown;
     }
 
+    BoxCollider2D coll;
+    float tempVelocity;
+    MovableObject movable;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ghost")
         {
             print("Столкновение");
         }
+
+        //Изменяем скорость при столкновении с обьектом
+        if (collision.gameObject.TryGetComponent<MovableObject>(out movable))
+        {
+            coll = GetComponent<BoxCollider2D>();
+            if (coll.bounds.min.y < collision.gameObject.GetComponent<BoxCollider2D>().bounds.center.y)
+            {
+                tempVelocity = velocity;
+                movable.ChangeVelocity(ref velocity);
+            }
+        }
     }
 
+    //Меняем скорость на изначальную
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<MovableObject>(out movable))
+        {
+            velocity = tempVelocity;
+        }
+    }
 }
