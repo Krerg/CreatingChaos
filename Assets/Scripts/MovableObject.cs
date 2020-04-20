@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class MovableObject : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    Rigidbody2D rb;
+    public void ChangeVelocity(ref float initialVelocity)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        rb = GetComponent<Rigidbody2D>();
+        initialVelocity /= rb.mass * (rb.drag + 1);
+        initialVelocity *= Player.movingObjectsSlowdown;
     }
 }

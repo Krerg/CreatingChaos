@@ -18,6 +18,7 @@ public class DimensionSwitcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Меняем время по W
         if (Input.GetKeyDown(KeyCode.W) && isSwitchPossible)
         {
 
