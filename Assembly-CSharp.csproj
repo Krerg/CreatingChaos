@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\MovableObject.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\RealObject.cs" />
+    <Compile Include="Assets\Scripts\RealObjectEditor.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity Files/Projects/After The Split/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

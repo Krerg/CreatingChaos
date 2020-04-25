@@ -16,7 +16,11 @@ public class GameInitializer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //При нажатии ESC выходим из приложения
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     private void Awake()

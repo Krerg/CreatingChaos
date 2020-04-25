@@ -38,7 +38,11 @@ public class RealObject : MonoBehaviour
             }
         }
 
-        coll = this.GetComponent<BoxCollider2D>();
+        if (!this.TryGetComponent<BoxCollider2D>(out coll))
+        {
+            coll = this.gameObject.AddComponent<BoxCollider2D>();
+        }
+
         ghost = ghostObject.AddComponent<GhostObject>();
         ghost.coll = ghostObject.AddComponent<BoxCollider2D>();
         ghost.coll.isTrigger = true;
