@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
+    PlayerAnimator[] playerAnimators;
 
     public float acceleration, maxWalkingSpeed;
 
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<BoxCollider2D>();
+        playerAnimators = GetComponentsInChildren<PlayerAnimator>();
     }
 
     // Update is called once per frame
@@ -64,6 +66,9 @@ public class Player : MonoBehaviour
                 isRunningJump = false;
             }
             print("jump");
+
+            foreach (var animator in playerAnimators)
+                animator.Jump();
 
         }
         if (Input.GetKey(KeyCode.LeftShift))
@@ -122,6 +127,17 @@ public class Player : MonoBehaviour
         }
 
         movingObjectsSlowdown = MovingObjectsSlowdown;
+
+        bool isMoving = !Mathf.Approximately(movement.x, 0.0f);
+        bool isFalling = rb.velocity.y < 0.0f;
+        foreach (var animator in playerAnimators) {
+            animator.UpdateAnimation(isMoving, inAir, isFalling);
+            if (isMoving) {
+                var s = animator.transform.localScale;
+                s.x = (movement.x < 0 ? -Mathf.Abs(s.x) : Mathf.Abs(s.x));
+                animator.transform.localScale = s;
+            }
+        }
     }
 
     BoxCollider2D coll;
@@ -142,6 +158,8 @@ public class Player : MonoBehaviour
             {
                 tempVelocity = acceleration;
                 movable.ChangeVelocity(ref acceleration);
+                foreach (var animator in playerAnimators)
+                    animator.BeginPush();
             }
         }
     }
@@ -169,6 +187,8 @@ public class Player : MonoBehaviour
         if (collision.gameObject.TryGetComponent<MovableObject>(out movable))
         {
             acceleration = tempVelocity;
+            foreach (var animator in playerAnimators)
+                animator.EndPush();
         }
     }
 }

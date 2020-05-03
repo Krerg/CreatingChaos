@@ -19406,6 +19406,7 @@ GameObject:
   - component: {fileID: 1284297265}
   - component: {fileID: 1284297264}
   - component: {fileID: 1284297263}
+  - component: {fileID: 1284297266}
   m_Layer: 0
   m_Name: Spine
   m_TagString: Untagged
@@ -19461,7 +19462,7 @@ MonoBehaviour:
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
   _animationName: idle
-  loop: 0
+  loop: 1
   timeScale: 1
 --- !u!23 &1284297264
 MeshRenderer:
@@ -19510,6 +19511,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284297261}
   m_Mesh: {fileID: 0}
+--- !u!114 &1284297266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284297261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5bbeb506ba8854f86ffa3d7aad4d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1285154584
 GameObject:
   m_ObjectHideFlags: 0
