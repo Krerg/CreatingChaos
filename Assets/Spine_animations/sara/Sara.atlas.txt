@@ -1,0 +1,202 @@
+
+Sara.png
+size: 1747,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sara_braid_left
+  rotate: false
+  xy: 1159, 12
+  size: 118, 118
+  orig: 120, 120
+  offset: 1, 1
+  index: -1
+Sara_braid_right
+  rotate: false
+  xy: 1375, 75
+  size: 143, 120
+  orig: 145, 122
+  offset: 1, 1
+  index: -1
+Sara_brows
+  rotate: true
+  xy: 1718, 362
+  size: 76, 20
+  orig: 79, 22
+  offset: 2, 1
+  index: -1
+Sara_collar_back
+  rotate: true
+  xy: 1116, 36
+  size: 77, 34
+  orig: 80, 38
+  offset: 2, 2
+  index: -1
+Sara_curl
+  rotate: true
+  xy: 1360, 18
+  size: 55, 87
+  orig: 59, 94
+  offset: 2, 2
+  index: -1
+Sara_dress1
+  rotate: false
+  xy: 912, 115
+  size: 245, 272
+  orig: 245, 274
+  offset: 0, 1
+  index: -1
+Sara_dress2
+  rotate: true
+  xy: 2, 113
+  size: 408, 908
+  orig: 413, 908
+  offset: 0, 0
+  index: -1
+Sara_eyes
+  rotate: true
+  xy: 1718, 440
+  size: 81, 27
+  orig: 83, 32
+  offset: 1, 4
+  index: -1
+Sara_fingers_left
+  rotate: false
+  xy: 1693, 13
+  size: 46, 72
+  orig: 49, 74
+  offset: 2, 1
+  index: -1
+Sara_fingers_right
+  rotate: false
+  xy: 1279, 18
+  size: 79, 112
+  orig: 83, 116
+  offset: 2, 2
+  index: -1
+Sara_foot_left
+  rotate: false
+  xy: 988, 2
+  size: 126, 111
+  orig: 128, 114
+  offset: 1, 1
+  index: -1
+Sara_foot_right
+  rotate: false
+  xy: 988, 2
+  size: 126, 111
+  orig: 128, 114
+  offset: 1, 1
+  index: -1
+Sara_forearm_left
+  rotate: false
+  xy: 1375, 197
+  size: 175, 219
+  orig: 178, 221
+  offset: 2, 1
+  index: -1
+Sara_forearm_right
+  rotate: false
+  xy: 1552, 160
+  size: 93, 256
+  orig: 97, 259
+  offset: 2, 2
+  index: -1
+Sara_head
+  rotate: false
+  xy: 1159, 132
+  size: 214, 255
+  orig: 217, 258
+  offset: 2, 1
+  index: -1
+Sara_mouth
+  rotate: true
+  xy: 1360, 92
+  size: 38, 13
+  orig: 40, 15
+  offset: 1, 1
+  index: -1
+Sara_neck
+  rotate: false
+  xy: 1647, 246
+  size: 69, 275
+  orig: 71, 279
+  offset: 1, 2
+  index: -1
+Sara_palm_left
+  rotate: false
+  xy: 1647, 176
+  size: 62, 68
+  orig: 64, 70
+  offset: 1, 1
+  index: -1
+Sara_palm_right
+  rotate: true
+  xy: 1606, 5
+  size: 56, 85
+  orig: 59, 87
+  offset: 2, 1
+  index: -1
+Sara_shin_left
+  rotate: true
+  xy: 2, 3
+  size: 108, 704
+  orig: 113, 710
+  offset: 0, 6
+  index: -1
+Sara_shin_right
+  rotate: true
+  xy: 912, 389
+  size: 132, 414
+  orig: 138, 429
+  offset: 2, 4
+  index: -1
+Sara_shoulder_left
+  rotate: true
+  xy: 708, 5
+  size: 106, 278
+  orig: 110, 280
+  offset: 2, 1
+  index: -1
+Sara_shoulder_right
+  rotate: true
+  xy: 1328, 418
+  size: 103, 289
+  orig: 106, 291
+  offset: 1, 1
+  index: -1
+Sara_thumb_left
+  rotate: false
+  xy: 1619, 455
+  size: 26, 66
+  orig: 29, 70
+  offset: 2, 2
+  index: -1
+Sara_thumb_right
+  rotate: false
+  xy: 1449, 41
+  size: 66, 32
+  orig: 69, 35
+  offset: 1, 2
+  index: -1
+Sara_toes_left
+  rotate: true
+  xy: 1665, 87
+  size: 87, 54
+  orig: 89, 57
+  offset: 1, 2
+  index: -1
+Sara_toes_right
+  rotate: false
+  xy: 1517, 7
+  size: 87, 54
+  orig: 89, 57
+  offset: 1, 2
+  index: -1
+Sara_wrinkles_nose
+  rotate: false
+  xy: 1520, 63
+  size: 143, 95
+  orig: 148, 98
+  offset: 1, 2
+  index: -1

@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
     PlayerAnimator[] playerAnimators;
+    SaraAnimator[] saraAnimators;
 
     public float acceleration, maxWalkingSpeed;
 
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<BoxCollider2D>();
         playerAnimators = GetComponentsInChildren<PlayerAnimator>();
+        saraAnimators = GetComponentsInChildren<SaraAnimator>();
     }
 
     // Update is called once per frame
@@ -65,9 +67,11 @@ public class Player : MonoBehaviour
                 rb.AddForce(transform.up * jumpWalkingVerticalAcceleration, ForceMode2D.Impulse);
                 isRunningJump = false;
             }
-            print("jump");
 
             foreach (var animator in playerAnimators)
+                animator.Jump();
+
+            foreach (var animator in saraAnimators)
                 animator.Jump();
 
         }
@@ -100,7 +104,6 @@ public class Player : MonoBehaviour
         
 
         bool inAir = !isGrounded();
-        print(inAir);
 
         if(!inAir)
         {
@@ -138,6 +141,19 @@ public class Player : MonoBehaviour
                 animator.transform.localScale = s;
             }
         }
+
+
+        foreach (var animator in saraAnimators)
+        {
+            animator.UpdateAnimation(isMoving, inAir, isFalling);
+            if (isMoving)
+            {
+                var s = animator.transform.localScale;
+                s.x = (movement.x < 0 ? -Mathf.Abs(s.x) : Mathf.Abs(s.x));
+                animator.transform.localScale = s;
+            }
+        }
+
     }
 
     BoxCollider2D coll;
