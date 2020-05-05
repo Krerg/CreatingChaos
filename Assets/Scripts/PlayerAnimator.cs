@@ -25,11 +25,15 @@ public class PlayerAnimator : MonoBehaviour
         pull_end,
     }
 
+    
+
     SkeletonAnimation spineAnimation;
     Animation currentAnimation;
     bool wasFalling;
     bool wasInAir;
     bool wasMoving;
+
+    public bool isSara = false;
 
     void Start()
     {
