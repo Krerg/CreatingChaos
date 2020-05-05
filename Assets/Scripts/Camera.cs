@@ -22,28 +22,24 @@ public class Camera : MonoBehaviour
 
         Vector3 approximate_target_position = Vector3.Lerp(transform.position, target_position, speed * Time.deltaTime);
         transform.position = approximate_target_position;
-        if (approximate_target_position.x < -1.75f)
+        if (approximate_target_position.x < -4f)
         {
-            print("Fix camera");
-            transform.position = new Vector3(-1.75f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-4f, transform.position.y, transform.position.z);
         }
 
         if (approximate_target_position.x > 21f)
         {
-            print("Fix camera");
             transform.position = new Vector3(21f, transform.position.y, transform.position.z);
         }
 
         if (approximate_target_position.y > -13f)
         {
-            print("Fix camera");
             transform.position = new Vector3(transform.position.x, -13f, transform.position.z);
         }
 
-        if (approximate_target_position.y < -25f)
+        if (approximate_target_position.y < -27f)
         {
-            print("Fix camera");
-            transform.position = new Vector3(transform.position.x, -25f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, -27f, transform.position.z);
         }
         
     }
